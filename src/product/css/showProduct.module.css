@@ -1,0 +1,40 @@
+.outer {
+    position: relative
+}
+
+.inner {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    display: none;
+    background-color: #658B6F;
+    font-size: 22px;
+    color: white;
+    border: 2px solid #658B6F;
+    padding: 10px 20px;
+}
+
+.outer:hover .inner {
+    display: block; 
+}
+
+.avatar {
+    background-color: #2F575D !important;
+}
+
+.loading-icon {
+    color: #6D9197;
+}
+
+.iconbar {
+    background-color: #2F575D;
+}
+
+.icons {
+    color: #C4CDC1;
+}
+
+.greenText {
+    color: #658B6F;
+}

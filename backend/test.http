@@ -1,0 +1,29 @@
+# POST http://localhost:4000/user/register
+# Content-Type: application/json
+
+# {
+#     "name": "none",
+#     "email": "none@mail.com",
+#     "password": "whg1234"
+# }
+
+###
+
+# POST http://localhost:4000/category/addCategory
+# Content-Type: application/json
+ 
+# {
+#     "category": "vegetable"
+# }
+
+###
+
+# POST http://localhost:4000/brand/addBrand
+# Content-Type: application/json
+ 
+# {
+#     "brand": "Del Monte",
+#     "category": "fruits"
+# }
+
+###

@@ -1,0 +1,41 @@
+
+.body {
+    background-color: black;
+}
+
+.image {
+    position: relative;
+}
+
+.link {    
+    font-family: 'Srisakdi', cursive; 
+    position: absolute;
+    background-color: white;
+    overflow: hidden;
+    bottom: 14%;
+    left: 0;
+    transition: 1s ease;
+    width: 85%;
+    height: 0;
+    color: black;
+    text-align: center;
+}
+
+.link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.image:hover .link {
+    height: 15%;
+}
+
+.qty {
+    font-family: 'Srisakdi', cursive;
+    float: right;
+    font-size: 20px;
+    background-color: wheat;
+    padding: 8px;
+    margin: 10px;
+}
+
