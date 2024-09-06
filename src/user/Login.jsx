@@ -4,7 +4,7 @@ import { Container, TextField, Box, Button, Typography, Snackbar } from '@materi
 import css from './user.module.css';
 import { Alert } from '@material-ui/lab';
 import { GoogleLogin, GoogleLogout } from 'react-google-login';
-import FacebookLogin from 'react-facebook-login';
+// import FacebookLogin from 'react-facebook-login';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Login(){
@@ -29,15 +29,15 @@ export default function Login(){
         window.location = "http://localhost:3000/welcome"
     }
 
-    const responseFacebook = (response) => {
-        console.log(response);
-        localStorage.setItem('loginID', response.googleId)
-        localStorage.setItem('loginName', response.name)
-        localStorage.setItem('loginEmail', response.email)
-        localStorage.setItem('loginPic', response.picture.data.url)
-        localStorage.removeItem('loginPassword')
-        window.location = "http://localhost:3000/welcome"
-    }
+    // const responseFacebook = (response) => {
+    //     console.log(response);
+    //     localStorage.setItem('loginID', response.googleId)
+    //     localStorage.setItem('loginName', response.name)
+    //     localStorage.setItem('loginEmail', response.email)
+    //     localStorage.setItem('loginPic', response.picture.data.url)
+    //     localStorage.removeItem('loginPassword')
+    //     window.location = "http://localhost:3000/welcome"
+    // }
 
     const [login, setLogin] = React.useState({
         email: '',
@@ -115,12 +115,12 @@ export default function Login(){
                     className={"m-5"}
                 />
 
-                <FacebookLogin
+                {/* <FacebookLogin
                     appId="1113980082360995"
                     autoLoad={true}
                     fields="name,email,picture"
                     callback={responseFacebook}
-                />
+                /> */}
 
             </Box>
             

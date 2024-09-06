@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
     "@material-ui/lab": "^4.0.0-alpha.57",
+    "@popperjs/core": "^2.11.8",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.0",
@@ -13,6 +15,7 @@
     "aos": "^2.3.4",
     "axios": "^1.7.3",
     "bootstrap": "^5.3.3",
+    "core-js": "^3.38.1",
     "emailjs-com": "^2.6.4",
     "moment": "^2.29.1",
     "react": "^17.0.1",
@@ -23,7 +26,7 @@
     "react-redux": "^7.2.2",
     "react-responsive-carousel": "^3.2.13",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "redux": "^4.0.5",
     "web-vitals": "^1.1.0"
   },
@@ -50,5 +53,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.25.1",
+    "@babel/plugin-transform-async-generator-functions": "^7.25.4",
+    "@babel/plugin-transform-class-properties": "^7.25.4",
+    "@babel/plugin-transform-dynamic-import": "^7.24.7",
+    "@babel/plugin-transform-json-strings": "^7.24.7",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.24.7",
+    "@babel/plugin-transform-numeric-separator": "^7.24.7",
+    "@babel/plugin-transform-object-rest-spread": "^7.24.7",
+    "@babel/plugin-transform-optional-catch-binding": "^7.24.7",
+    "@babel/plugin-transform-optional-chaining": "^7.24.8",
+    "@babel/plugin-transform-unicode-property-regex": "^7.24.7",
+    "rimraf": "^6.0.1",
+    "svgo": "^3.3.2"
   }
 }
